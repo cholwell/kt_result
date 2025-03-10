@@ -1,4 +1,4 @@
-rootProject.name = "kt-result"
+rootProject.name = "kt_result"
 
 dependencyResolutionManagement {
     repositories {

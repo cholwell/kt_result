@@ -11,7 +11,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/cholwell/kt-result")
+            url = uri("https://maven.pkg.github.com/cholwell/kt_result")
             credentials {
                 username = project.findProperty("gpruser") as String? ?: System.getenv("gpruser")
                 password = project.findProperty("gprkey") as String? ?: System.getenv("gprkey")

@@ -1,1 +1,1 @@
-# kt-result
+# kt_result
