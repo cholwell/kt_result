@@ -7,3 +7,5 @@ sealed interface Result<out V, out E> {
 
 fun <V> ok(value: V) = Result.Ok(value)
 fun <E> error(error: E) = Result.Error(error)
+
+data object None
